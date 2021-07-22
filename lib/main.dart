@@ -1,4 +1,3 @@
-import 'dart:io';
 
 import 'package:flutter/material.dart';
 
@@ -11,7 +10,7 @@ void main() {
       ),
       backgroundColor: Colors.blueGrey,
       body: Center(child: Image(
-        image: AssetImage('images/aw.png'),
+        image: AssetImage('assets/images/aw.png'),
       ),)
     ),
   ));
